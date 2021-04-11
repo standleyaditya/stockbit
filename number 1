@@ -1,0 +1,1 @@
+SELECT A.id, A.username, B.username FROM user A, user B WHERE B.id = A.parent ORDER BY A.id
